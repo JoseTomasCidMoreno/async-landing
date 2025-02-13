@@ -39,7 +39,7 @@ console.log(
 		`;
 		content.innerHTML = view; 
 	} catch (error) {
-		console.log(error);
+		console.error(error);
 		alert(error);
 	}
 })()
