@@ -6,10 +6,18 @@
   "scripts": {
     "deploy": "gh-pages -d src"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/JoseTomasCidMoreno/async-landing.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseTomasCidMoreno/async-landing/issues"
+  },
+  "homepage" : "https://github.com/JoseTomasCidMoreno/async-landing#readme",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages" : "^6.3.0"
   }
 }
